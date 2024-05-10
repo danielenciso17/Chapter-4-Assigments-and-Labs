@@ -1,0 +1,123 @@
+/*
+Author: Your Name
+Date: Current Date
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+header {
+    background-color: #373684; /* Dark purple header */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #373684; /* Dark purple navigation */
+    color: white; /* White text */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White links */
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Hero image */
+#hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Info section */
+#info {
+    background-color: #fff; /* White info background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#info h2 {
+    color: #373684; /* Dark purple headings */
+    margin-bottom: 10px;
+}
+
+#info p {
+    margin-bottom: 10px;
+}
+
+#info ul {
+    margin-left: 20px;
+}
+
+#info ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+/* Lesson sections */
+#piano, #guitar, #violin {
+    background-color: #fff; /* White lesson backgrounds */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#piano h3, #guitar h3, #violin h3 {
+    color: #373684; /* Dark purple headings */
+    margin-bottom: 10px;
+}
+
+#piano p, #guitar p, #violin p {
+    margin-bottom: 10px;
+}
+
+#piano img, #guitar img, #violin img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #373684; /* Dark purple footer */
+    color: white; /* White text */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
